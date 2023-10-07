@@ -1,0 +1,56 @@
+#runtime: nodejs16
+
+# handlers:
+# - url: /
+#   static_files: dist/frontend/index.html
+#   upload: dist/frontend/index.html
+
+# - url: /
+#   static_dir: dist/frontend
+
+
+# handlers:
+# - url: /.*
+#   script: auto
+
+
+# handlers:
+# - url: /.*
+#   static_files: dist/frontend/index.html
+#   upload: dist/frontend/index.html
+# - url: /(.*)
+#   static_files: dist/frontend/\1
+#   upload: dist/frontend/(.*)
+
+#handlers:
+#- url: /.*
+#  script: auto
+
+
+# handlers:
+# - url: /
+#   static_files: dist/frontend/index.html
+#   upload: dist/frontend/index.html
+# - url: /polyfills\.[0-9a-f]{8}\.js
+#   static_files: dist/frontend/polyfills.794d7387aea30963.js
+#   upload: dist/frontend/polyfills.794d7387aea30963.js
+# - url: /(.*\.(gif|png|jpg|ico|svg|txt|css|js))$
+#   static_files: dist/frontend/\1
+#   upload: dist/frontend/.*\.(gif|png|jpg|ico|svg|txt|css|js)$
+# - url: /(.*)
+#   script: auto
+
+
+runtime: nodejs16
+
+# handlers:
+# - url: /
+#   static_files: dist/frontend/index.html
+#   upload: dist/frontend/index.html
+
+# - url: /(.+)
+#   static_files: dist/frontend/\1
+#   upload: dist/frontend/(.+)
+
+# - url: /api/.*
+#   script: auto
